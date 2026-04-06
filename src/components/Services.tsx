@@ -33,11 +33,11 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="border-t border-light-taupe/50 max-w-7xl mx-auto">
-      <div className="flex flex-col md:flex-row md:items-baseline md:justify-between px-6 sm:px-8 md:px-12 lg:px-24 pt-8 md:pt-10 pb-5 md:pb-7 gap-3">
-        <span className="text-[10px] md:text-[11px] tracking-[0.1em] uppercase text-terracotta">01 — Services</span>
-        <h2 className="font-serif text-2xl md:text-3xl tracking-tight text-dark-brown">What I do</h2>
-        <span className="text-sm text-warm-brown cursor-pointer underline underline-offset-3 hover:text-dark-brown transition-colors">
+    <section id="services" className="border-t border-light-taupe/50">
+      <div className="flex flex-col md:flex-row md:items-baseline md:justify-between px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 pt-10 md:pt-14 pb-6 md:pb-8 gap-4">
+        <span className="text-xs md:text-sm tracking-[0.1em] uppercase text-terracotta">01 — Services</span>
+        <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl tracking-tight text-dark-brown">What I do</h2>
+        <span className="text-base md:text-lg text-warm-brown cursor-pointer underline underline-offset-3 hover:text-dark-brown transition-colors">
           View all →
         </span>
       </div>
@@ -45,13 +45,13 @@ export default function Services() {
         {services.map((svc, idx) => (
           <div
             key={idx}
-            className="px-6 sm:px-8 md:px-12 lg:px-24 py-6 md:py-7 pb-7 md:pb-9 border-b md:border-b-0 md:border-r border-light-taupe/50 bg-cream hover:bg-warm-beige/50 transition-colors last:border-r-0 last:border-b-0"
+            className="px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 py-8 md:py-10 pb-9 md:pb-12 border-b md:border-b-0 md:border-r border-light-taupe/50 bg-cream hover:bg-warm-beige/50 transition-colors last:border-r-0 last:border-b-0"
           >
-            <div className="w-9 h-9 border border-light-taupe rounded-sm flex items-center justify-center mb-5 bg-warm-beige">
-              <div className="w-4 h-4 stroke-terracotta">{svc.icon}</div>
+            <div className="w-12 h-12 md:w-14 md:h-14 border border-light-taupe rounded-sm flex items-center justify-center mb-6 bg-warm-beige">
+              <div className="w-5 h-5 md:w-6 md:h-6 stroke-terracotta">{svc.icon}</div>
             </div>
-            <p className="text-sm font-medium text-dark-brown mb-2.5">{svc.name}</p>
-            <p className="text-[13px] leading-relaxed text-warm-brown">{svc.desc}</p>
+            <p className="text-base md:text-lg font-medium text-dark-brown mb-3">{svc.name}</p>
+            <p className="text-sm md:text-base leading-relaxed text-warm-brown">{svc.desc}</p>
           </div>
         ))}
       </div>
