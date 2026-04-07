@@ -6,18 +6,8 @@ const services = [
         <path d="M8 2v4M16 2v4M3 10h18" />
       </svg>
     ),
-    name: 'Calendar Management',
-    desc: 'Scheduling, rescheduling, and protecting your time so you focus on high-leverage work only.',
-  },
-  {
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5">
-        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z" />
-        <path d="m22 6-10 7L2 6" />
-      </svg>
-    ),
-    name: 'Inbox & Correspondence',
-    desc: 'Email triage, drafting responses, and keeping communications tight and professional.',
+    name: 'Calendar & Email Management',
+    desc: 'Expert scheduling, inbox triage, and correspondence management using Google Workspace. I protect your time and keep communications tight and professional.',
   },
   {
     icon: (
@@ -26,8 +16,18 @@ const services = [
         <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
       </svg>
     ),
-    name: 'Task & Project Support',
-    desc: 'Tracking deliverables, chasing follow-ups, and keeping projects moving without your oversight.',
+    name: 'Project Coordination & CRM',
+    desc: 'Track deliverables in Trello, manage customer data in ZohoCRM, and ensure projects move forward without constant oversight. Execution excellence guaranteed.',
+  },
+  {
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5">
+        <circle cx="12" cy="12" r="3" />
+        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+      </svg>
+    ),
+    name: 'AI Automation & Research',
+    desc: 'Leverage Zapier, Make, and Gumloop for workflow automation. Plus comprehensive online research, data entry, and structured reporting to support decision-making.',
   },
 ]
 

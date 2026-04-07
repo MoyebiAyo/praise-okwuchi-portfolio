@@ -56,13 +56,17 @@ export default function Contact() {
             <span className="text-dark-brown">Jos, Nigeria (Remote-first)</span>
           </div>
         </div>
-        <button className="mt-8 md:mt-10 inline-flex items-center gap-2 font-sans text-sm font-medium tracking-[0.08em] uppercase border border-terracotta text-terracotta bg-transparent px-6 py-3 rounded-sm cursor-pointer hover:bg-terracotta hover:text-cream transition-colors">
+        <a 
+          href="/Funmi-Dorcas-VA-Resume.pdf" 
+          download="Funmi-Dorcas-VA-Resume.pdf"
+          className="mt-8 md:mt-10 inline-flex items-center gap-2 font-sans text-sm font-medium tracking-[0.08em] uppercase border border-terracotta text-terracotta bg-transparent px-6 py-3 rounded-sm cursor-pointer hover:bg-terracotta hover:text-cream transition-colors"
+        >
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
             <path d="M12 15V3M6 9l6 6 6-6" />
             <path d="M3 18h18v3H3z" />
           </svg>
           Download CV
-        </button>
+        </a>
       </div>
       <div className="px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 py-12 md:py-16 flex flex-col gap-6">
         <form onSubmit={handleSubmit} className="flex flex-col gap-5">

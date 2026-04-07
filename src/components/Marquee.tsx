@@ -1,11 +1,15 @@
 export default function Marquee() {
   const items = [
     'Calendar Management',
-    'Inbox Organisation',
-    'Task Coordination',
-    'Research & Reports',
-    'Client Communication',
-    'Project Support',
+    'Email & Inbox Organisation',
+    'Travel Planning & Itineraries',
+    'AI Automation (Zapier, Make)',
+    'Project Coordination (Trello)',
+    'CRM Management (Zoho)',
+    'Data Entry & Documentation',
+    'Online Research & Reports',
+    'Canva Design & Formatting',
+    'Google Workspace Expert',
   ]
 
   return (

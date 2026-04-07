@@ -1,9 +1,10 @@
 const skills = [
-  { label: 'Calendar & Scheduling', level: 'Expert', percent: 95 },
-  { label: 'Email Management', level: 'Expert', percent: 90 },
-  { label: 'Research & Reporting', level: 'Proficient', percent: 80 },
-  { label: 'Project Coordination', level: 'Proficient', percent: 75 },
-  { label: 'Client Communication', level: 'Expert', percent: 92 },
+  { label: 'Administrative Support', level: 'Expert', percent: 95 },
+  { label: 'Project Coordination (Trello)', level: 'Advanced', percent: 90 },
+  { label: 'CRM Management (Zoho)', level: 'Advanced', percent: 88 },
+  { label: 'Google Workspace', level: 'Expert', percent: 95 },
+  { label: 'AI Automation (Zapier, Make)', level: 'Intermediate', percent: 80 },
+  { label: 'Canva Design', level: 'Advanced', percent: 85 },
 ]
 
 export default function About() {
@@ -16,8 +17,11 @@ export default function About() {
           <br />
           don&apos;t have to <em className="italic text-terracotta-light">be.</em>
         </h2>
+        <p className="text-base md:text-lg leading-relaxed text-soft-taupe mb-4">
+          I&apos;m Dorcas Ayomide Funmiluyi — a detail-oriented Virtual Assistant based in Jos, Plateau State. I hold a Bachelor of Education in Economics from the University of Ibadan and am certified in Virtual Assistance from TechCrush Bootcamp.
+        </p>
         <p className="text-base md:text-lg leading-relaxed text-soft-taupe">
-          I&apos;m Dorcas — a Virtual Assistant helping busy professionals reclaim their time and headspace. Based in Jos, I work remotely with clients across Nigeria and beyond, stepping in so you can step back from the noise.
+          I specialize in boosting productivity and operational efficiency through administrative management, project coordination, and AI-powered automation. My commitment is to deliver high-quality work promptly, enabling you to optimize workflow and achieve your business goals with greater ease.
         </p>
       </div>
       <div className="px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 py-12 md:py-16 flex flex-col gap-6 md:gap-8">
