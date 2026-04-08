@@ -57,7 +57,7 @@ export default function Contact() {
           </div>
         </div>
         <a 
-          href="/Funmi-Dorcas-VA-Resume.pdf" 
+          href="/Funmi%20Dorcas%20VA%20Resume%201.pdf" 
           download="Funmi-Dorcas-VA-Resume.pdf"
           className="mt-8 md:mt-10 inline-flex items-center gap-2 font-sans text-sm font-medium tracking-[0.08em] uppercase border border-terracotta text-terracotta bg-transparent px-6 py-3 rounded-sm cursor-pointer hover:bg-terracotta hover:text-cream transition-colors"
         >

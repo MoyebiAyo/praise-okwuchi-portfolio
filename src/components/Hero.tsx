@@ -33,7 +33,7 @@ export default function Hero() {
             </svg>
           </button>
           <a 
-            href="/Funmi-Dorcas-VA-Resume.pdf" 
+            href="/Funmi%20Dorcas%20VA%20Resume%201.pdf" 
             download="Funmi-Dorcas-VA-Resume.pdf"
             className="text-xs md:text-sm lg:text-base text-warm-brown tracking-[0.04em] underline underline-offset-3 cursor-pointer hover:text-dark-brown transition-colors"
           >

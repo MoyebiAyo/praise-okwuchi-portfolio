@@ -4,6 +4,7 @@ import Marquee from '../components/Marquee'
 import Services from '../components/Services'
 import About from '../components/About'
 import Testimonial from '../components/Testimonial'
+import PortfolioPreview from '../components/PortfolioPreview'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Services />
       <About />
       <Testimonial />
+      <PortfolioPreview />
       <Contact />
       <Footer />
     </main>

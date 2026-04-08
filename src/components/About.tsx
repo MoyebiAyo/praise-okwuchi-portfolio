@@ -23,6 +23,18 @@ export default function About() {
         <p className="text-base md:text-lg leading-relaxed text-soft-taupe">
           I specialize in boosting productivity and operational efficiency through administrative management, project coordination, and AI-powered automation. My commitment is to deliver high-quality work promptly, enabling you to optimize workflow and achieve your business goals with greater ease.
         </p>
+        
+        {/* Certificate Display */}
+        <div className="mt-6 md:mt-8">
+          <p className="text-xs tracking-[0.1em] uppercase text-terracotta-light mb-3">Certified Virtual Assistant</p>
+          <div className="relative overflow-hidden rounded-sm border border-medium-brown bg-cream/5">
+            <img 
+              src="/certification%20dorcas.jpeg" 
+              alt="Virtual Assistant Certification"
+              className="w-full h-auto object-contain"
+            />
+          </div>
+        </div>
       </div>
       <div className="px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 py-12 md:py-16 flex flex-col gap-6 md:gap-8">
         {skills.map((skill, idx) => (
