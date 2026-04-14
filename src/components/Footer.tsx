@@ -14,7 +14,14 @@ export default function Footer() {
         Praise
       </span>
       <span className="text-sm md:text-base text-warm-gray">© 2026 Praise Oluebube Okwuchi — Globally Accessible</span>
-      <span className="text-sm md:text-base text-orange-400">Built by Mouse Technologies</span>
+      <a 
+        href="https://mousetech.app" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-sm md:text-base text-orange-400 hover:text-orange-500 transition-colors"
+      >
+        Built by Mouse Technologies
+      </a>
     </footer>
   )
 }

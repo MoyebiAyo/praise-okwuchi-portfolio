@@ -76,7 +76,7 @@ export default function Contact() {
             <span className="text-xs tracking-[0.1em] uppercase text-orange-400 w-20 flex-shrink-0 pt-1 font-medium">
               Location
             </span>
-            <span className="text-ink">Lagos, Nigeria</span>
+            <span className="text-ink">Globally Accessible</span>
           </div>
         </div>
         <a 
