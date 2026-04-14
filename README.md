@@ -1,144 +1,95 @@
-# Praise Okwuchi Portfolio
+# Dorcas VA Portfolio
 
-Strategic Communication Specialist portfolio website built with Next.js and Tailwind CSS.
+A professional portfolio website for Funmiluyi Dorcas Ayomide — Virtual Assistant based in Jos, Nigeria.
 
-## Project Overview
-
-This is a professional portfolio website for Praise Oluebube Okwuchi — a Strategic Communication Specialist, Public Speaking Trainer, author, and development practitioner with a decade of experience across corporate communications, NGO leadership, and policy advocacy.
-
-## Features
-
-- **Hero Section**: Professional introduction with CTAs
-- **Portfolio Preview**: Featured work showcase
-- **About Section**: Full professional bio and skills
-- **Testimonials**: Client feedback and endorsements
-- **Services**: Offered services with descriptions
-- **Contact**: Contact form with WhatsApp integration
-- **Responsive Design**: Mobile, tablet, and desktop optimized
-
-## Tech Stack
-
-- **Framework**: Next.js 14
-- **Styling**: Tailwind CSS
-- **Language**: TypeScript
-- **Deployment**: Vercel
-
-## Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
-
 - Node.js 18+ installed
 - npm or yarn package manager
 
 ### Installation
 
-1. Navigate to the project directory:
-```bash
-cd praise-okwuchi-portfolio
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Run the development server:
+2. Start development server:
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Build for Production
+## 📁 Project Structure
+
+```
+dorcas-va-portfolio/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx       # Root layout
+│   │   ├── page.tsx         # Home page
+│   │   └── globals.css      # Global styles
+│   └── components/
+│       ├── Navbar.tsx       # Navigation bar
+│       ├── Hero.tsx         # Hero section
+│       ├── Marquee.tsx      # Scrolling services marquee
+│       ├── Services.tsx     # Services grid
+│       ├── About.tsx        # About section with skills
+│       ├── Testimonial.tsx  # Client testimonial
+│       ├── Contact.tsx      # Contact form
+│       └── Footer.tsx       # Footer
+├── public/                  # Static assets
+├── next.config.mjs         # Next.js configuration
+├── tailwind.config.ts      # Tailwind CSS configuration
+└── package.json            # Dependencies
+```
+
+## 🎨 Design Features
+
+- **Terracotta & Cream Color Palette**: Warm, professional aesthetic
+- **Responsive Design**: Mobile-first approach
+- **Smooth Animations**: Marquee scrolling, hover effects
+- **Clean Typography**: DM Serif Display + DM Sans fonts
+- **Modern Layout**: Grid-based, component-driven architecture
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Deployment**: Vercel-ready
+
+## 📦 Build for Production
 
 ```bash
 npm run build
 npm start
 ```
 
-## Content Updates
+## 🌐 Deploy to Vercel
 
-### Required Assets
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Deploy automatically
 
-Before deployment, ensure the following files are added to the `public/` folder:
-
-1. **Praise-Okwuchi-CV.pdf** - Downloadable CV/Resume
-2. **profile.png** or **profile.jpg** - Professional profile photo
-
-### Contact Information
-
-- **Email**: opraiseoluebube@gmail.com
-- **Phone**: +234 903 636 7106
-- **LinkedIn**: https://www.linkedin.com/in/praise-okwuchi/
-- **Instagram**: https://www.instagram.com/opraiseoluebube/
-
-### Social Media Links
-
-Update social media links in:
-- `src/components/Contact.tsx`
-- `src/components/Footer.tsx` (if needed)
-
-## Color Scheme
-
-- **Primary**: Deep Purple (#6B4C9A)
-- **Secondary**: Burnt Orange (#D4783E)
-- **Background**: Off-White (#F8F6F3)
-- **Text**: Charcoal (#2D2D2D)
-- **Dark Sections**: Dark Navy (#1A1A2E)
-
-## Typography
-
-- **Display**: DM Serif Display (serif)
-- **Body**: DM Sans (sans-serif)
-
-## Project Structure
-
-```
-praise-okwuchi-portfolio/
-├── public/                 # Static assets
-│   ├── profile.png        # Profile photo
-│   └── Praise-Okwuchi-CV.pdf  # Downloadable CV
-├── src/
-│   ├── app/               # Next.js app router
-│   │   ├── layout.tsx     # Root layout
-│   │   ├── page.tsx       # Homepage
-│   │   └── globals.css    # Global styles
-│   └── components/        # React components
-│       ├── Navbar.tsx
-│       ├── Hero.tsx
-│       ├── Marquee.tsx
-│       ├── PortfolioPreview.tsx
-│       ├── About.tsx
-│       ├── Testimonial.tsx
-│       ├── Services.tsx
-│       ├── Contact.tsx
-│       └── Footer.tsx
-├── tailwind.config.ts     # Tailwind configuration
-└── package.json
-```
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push to GitHub
-2. Import project in Vercel
-3. Deploy
-
-### Manual Deployment
+Or use Vercel CLI:
 
 ```bash
-npm run build
+npm i -g vercel
+vercel
 ```
 
-Upload the `.next` folder and run `npm start` on your server.
+## 📝 Content Updates
 
-## Credits
+All content is in the component files under `src/components/`. Simply edit the text to update:
+- Hero section: `Hero.tsx`
+- Services: `Services.tsx`
+- About: `About.tsx`
+- Testimonials: `Testimonial.tsx`
+- Contact info: `Contact.tsx`
 
-- **Built by**: Mouse Technologies
-- **Website**: mousetech.me
-- **Contact**: ayo@mousetech.me
+## 📄 License
 
-## License
-
-Private project - All rights reserved.
+Built by Mouse Technologies for Funmiluyi Dorcas Ayomide
