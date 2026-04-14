@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Dorcas Ayomide — Virtual Assistant',
-  description: 'Professional Virtual Assistant helping CEOs, Founders, and HR professionals stay organized and focused on what actually moves the needle.',
+  title: 'Praise Oluebube Okwuchi — Strategic Communication Specialist',
+  description: 'Strategic Communication Specialist, Public Speaking Trainer, author, and development practitioner with a decade of experience across corporate communications, NGO leadership, and policy advocacy.',
 }
 
 export default function RootLayout({

@@ -11,9 +11,9 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="flex items-center justify-between px-6 sm:px-8 md:px-12 lg:px-24 py-4 md:py-7 bg-cream border-b border-light-taupe/50 sticky top-0 z-50">
-      <Link href="/" className="font-serif text-base md:text-lg text-dark-brown tracking-tight hover:text-terracotta transition-colors">
-        Dorcas <em className="italic text-terracotta">Ayomide</em>
+    <nav className="flex items-center justify-between px-6 sm:px-8 md:px-12 lg:px-24 py-4 md:py-7 bg-ivory border-b border-sand/50 sticky top-0 z-50">
+      <Link href="/" className="font-serif text-base md:text-lg text-ink tracking-tight hover:text-orange-400 transition-colors">
+        Praise <em className="italic text-orange-400">Okwuchi</em>
       </Link>
       <ul className="hidden md:flex items-center gap-6 lg:gap-9 list-none">
         <li 
@@ -24,9 +24,33 @@ export default function Navbar() {
               scrollToSection('about')
             }
           }}
-          className="text-xs tracking-[0.08em] uppercase text-warm-brown cursor-pointer hover:text-dark-brown transition-colors flex items-center"
+          className="text-xs tracking-[0.08em] uppercase text-warm-gray cursor-pointer hover:text-orange-400 transition-colors flex items-center"
         >
           About
+        </li>
+        <li 
+          onClick={() => {
+            if (window.location.pathname !== '/') {
+              window.location.href = '/#portfolio'
+            } else {
+              scrollToSection('portfolio')
+            }
+          }}
+          className="text-xs tracking-[0.08em] uppercase text-warm-gray cursor-pointer hover:text-orange-400 transition-colors flex items-center"
+        >
+          Portfolio
+        </li>
+        <li 
+          onClick={() => {
+            if (window.location.pathname !== '/') {
+              window.location.href = '/#skills'
+            } else {
+              scrollToSection('skills')
+            }
+          }}
+          className="text-xs tracking-[0.08em] uppercase text-warm-gray cursor-pointer hover:text-orange-400 transition-colors flex items-center"
+        >
+          Skills
         </li>
         <li 
           onClick={() => {
@@ -36,17 +60,9 @@ export default function Navbar() {
               scrollToSection('services')
             }
           }}
-          className="text-xs tracking-[0.08em] uppercase text-warm-brown cursor-pointer hover:text-dark-brown transition-colors flex items-center"
+          className="text-xs tracking-[0.08em] uppercase text-warm-gray cursor-pointer hover:text-orange-400 transition-colors flex items-center"
         >
           Services
-        </li>
-        <li className="flex items-center">
-          <Link 
-            href="/portfolio"
-            className="text-xs tracking-[0.08em] uppercase text-warm-brown hover:text-dark-brown transition-colors"
-          >
-            Portfolio
-          </Link>
         </li>
         <li 
           onClick={() => {
@@ -56,7 +72,7 @@ export default function Navbar() {
               scrollToSection('contact')
             }
           }}
-          className="text-xs tracking-[0.08em] uppercase text-warm-brown cursor-pointer hover:text-dark-brown transition-colors flex items-center"
+          className="text-xs tracking-[0.08em] uppercase text-warm-gray cursor-pointer hover:text-orange-400 transition-colors flex items-center"
         >
           Contact
         </li>
@@ -69,7 +85,7 @@ export default function Navbar() {
             scrollToSection('contact')
           }
         }}
-        className="font-sans text-xs font-medium tracking-[0.08em] uppercase bg-terracotta text-cream border-none px-4 md:px-5 py-2 md:py-2.5 rounded-sm cursor-pointer hover:bg-terracotta-light transition-colors"
+        className="font-sans text-xs font-medium tracking-[0.08em] uppercase bg-orange-400 text-ivory border-none px-4 md:px-5 py-2 md:py-2.5 rounded-sm cursor-pointer hover:bg-orange-500 transition-colors"
       >
         Hire Me
       </button>
