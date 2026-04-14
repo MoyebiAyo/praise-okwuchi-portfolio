@@ -11,7 +11,7 @@ export default function Contact() {
     const message = formData.get('message') as string
     
     // Create WhatsApp message
-    const whatsappMessage = `Hi Praise!%0A%0AName: ${name}%0AEmail: ${email}%0A%0AMessage:%0A${message}`
+    const whatsappMessage = `Hi Praise!%0A%0AI would like to book a session.%0A%0AName: ${name}%0AEmail: ${email}%0A%0AMessage:%0A${message}`
     
     // Open WhatsApp with the message
     const whatsappURL = `https://wa.me/2349036367106?text=${whatsappMessage}`

@@ -1,3 +1,5 @@
+'use client'
+
 const services = [
   {
     icon: (
@@ -46,17 +48,26 @@ const services = [
       </svg>
     ),
     name: 'Development Communication Advisory',
-    desc: 'Leverage a decade of experience in NGO leadership, policy advocacy, and development practice to create impactful communication campaigns that advance organizational missions.',
+    desc: 'Leverage 5 years of experience in NGO leadership, policy advocacy, and development practice to create impactful communication campaigns that advance organizational missions.',
   },
 ]
 
 export default function Services() {
+  const openWhatsApp = () => {
+    const whatsappMessage = `Hi Praise!%0A%0AI would like to book a session.`
+    const whatsappURL = `https://wa.me/2349036367106?text=${whatsappMessage}`
+    window.open(whatsappURL, '_blank')
+  }
+
   return (
     <section id="services" className="border-t border-sand/50">
       <div className="flex flex-col md:flex-row md:items-baseline md:justify-between px-6 sm:px-8 md:px-12 lg:px-24 xl:px-32 pt-10 md:pt-14 pb-6 md:pb-8 gap-4">
         <span className="text-xs md:text-sm tracking-[0.1em] uppercase text-orange-400">04 — Services</span>
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl tracking-tight text-ink">What I Offer</h2>
-        <span className="text-base md:text-lg text-warm-gray cursor-pointer underline underline-offset-3 hover:text-orange-400 transition-colors">
+        <span 
+          onClick={openWhatsApp}
+          className="text-base md:text-lg text-warm-gray cursor-pointer underline underline-offset-3 hover:text-orange-400 transition-colors"
+        >
           Book a Session →
         </span>
       </div>

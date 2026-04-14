@@ -17,7 +17,6 @@ const tools = [
   { name: 'Buffer', icon: '/logos/buffer.svg' },
   { name: 'Hootsuite', icon: '/logos/hootsuite.svg' },
   { name: 'Mailchimp', icon: '/logos/mailchimp.svg' },
-  { name: 'Brevo', icon: '/logos/brevo.svg' },
   { name: 'Substack', icon: '/logos/substack.svg' },
   { name: 'SurveyMonkey', icon: '/logos/surveymonkey.svg' },
   { name: 'Slack', icon: '/logos/slack.svg' },
@@ -33,14 +32,14 @@ export default function About() {
           <br />
           into Actionable <em className="italic text-orange-300">Impact.</em>
         </h2>
-        <p className="text-base md:text-lg leading-relaxed text-warm-gray mb-4">
-          I&apos;m Praise Oluebube Okwuchi — a Strategic Communication Specialist, Public Speaking Trainer, author, and development practitioner based in Lagos, Nigeria. I hold a Bachelor&apos;s degree in French Language (Alex Ekwueme Federal University) and a Master&apos;s degree in Public Management (Babcock University).
+        <p className="text-base md:text-lg leading-relaxed text-ivory mb-4">
+          I&apos;m Praise Oluebube Okwuchi, a Strategic Communication Specialist, Public Speaking Trainer, Author, and Development practitioner based. I hold a Bachelor&apos;s degree in French Language and a Master&apos;s degree in Public Management (Babcock University).
         </p>
-        <p className="text-base md:text-lg leading-relaxed text-warm-gray mb-4">
-          I serve as Global Communication Executive at Mission Enablers International and Children Empowerment Funds, and am the Founder of Peridot School of Languages. I am President of Tamar&apos;s City, where I lead the Women Empowering Girls Program — a mentorship initiative for secondary school girls.
+        <p className="text-base md:text-lg leading-relaxed text-ivory mb-4">
+          I serve as Global Communications Executive at Mission Enablers International and Children Empowerment Funds, and I am the founder of Peridot School of Languages. As the President of Tamar&apos;s City, I lead the Women Empowering Girls Program, a mentorship initiative for secondary school girls.
         </p>
-        <p className="text-base md:text-lg leading-relaxed text-warm-gray">
-          A Fellow of the Nigerian Prize for Leadership and YALI Alumni, I&apos;ve represented the Southeast at UN Model Assembly panels, appeared on Africa Independent Television (AIT), and presented at the Young Women Leaders Programme 2023 (LEAP Africa).
+        <p className="text-base md:text-lg leading-relaxed text-ivory">
+          A Fellow of the Nigerian Prize for Leadership and YALI Alumni, I&apos;ve represented the Southeast at UN Model Assembly panels, appeared on Africa Independent Television (AIT), and participated at the Young Women Leaders Programme 2023 (LEAP Africa).
         </p>
         
         {/* Certificate */}
@@ -61,8 +60,8 @@ export default function About() {
             {/* Transparent overlay to prevent right-click save */}
             <div className="absolute inset-0 bg-transparent" />
           </div>
-          <p className="text-sm text-warm-gray mt-4 italic">
-            LEAP Africa Entrepreneurial Development Course (EDC) Certificate
+          <p className="text-sm text-ivory mt-4 italic">
+            LEAP Africa Essentials of Development Course (EDC) Certificate
           </p>
         </div>
       </div>

@@ -13,7 +13,7 @@ export default function Footer() {
       >
         Praise
       </span>
-      <span className="text-sm md:text-base text-warm-gray">© 2026 Praise Oluebube Okwuchi</span>
+      <span className="text-sm md:text-base text-warm-gray">© 2026 Praise Oluebube Okwuchi — Globally Accessible</span>
       <span className="text-sm md:text-base text-orange-400">Built by Mouse Technologies</span>
     </footer>
   )
